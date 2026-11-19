@@ -76,6 +76,3 @@ cd Backend/catalogue-service
 Vérifier : `http://localhost:8081/actuator/health` répond `{"status":"UP"}`. Documentation de l'API : `http://localhost:8081/swagger-ui.html`.
 
 
-## Suivi des tâches
-
-**À compléter** : lien vers l'outil de gestion de projet de l'équipe (Trello, Jira, GitHub Projects…).
