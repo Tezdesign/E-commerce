@@ -9,12 +9,11 @@ Mini-projet AWD (Applications Web Distribuées), ESPRIT, année 2026-2027. Archi
 
 Les artisans tunisiens n'ont pas de vitrine en ligne simple pour vendre leurs produits. La plateforme relie les artisans, les clients et les livreurs : l'artisan publie ses produits, le client commande et paie, le livreur achemine la commande, et chacun est informé à chaque étape.
 
-- **Acteurs :** client, artisan (vendeur), livreur, administrateur.
-- **Fonctionnalités principales :** publier et gérer des produits, parcourir et rechercher, passer commande, payer (paiement simulé), suivre la livraison, recevoir des notifications, laisser un avis.
+- **Acteurs :** client, artisan (vendeur), livreur, administrateur,Fournisseur
+- **Fonctionnalités principales :** publier et gérer des produits, parcourir et rechercher, passer commande, payer (paiement simulé), suivre la livraison, recevoir des notifications, laisser un avis , gerer le stock.
 
 ## Équipe
 
-**À compléter** : nom du projet et noms des membres.
 
 | Microservice | Responsable | Base |
 |---|---|---|
@@ -76,19 +75,6 @@ cd Backend/catalogue-service
 
 Vérifier : `http://localhost:8081/actuator/health` répond `{"status":"UP"}`. Documentation de l'API : `http://localhost:8081/swagger-ui.html`.
 
-### Ensemble de la plateforme
-
-**À compléter** : commande Docker Compose, une fois les services et l'infrastructure prêts.
-
-## Documentation
-
-- Catalogue : [fiche de conception](Documentation/catalogue/Catalogue-fiche-conception.docx), [modèle de données](Documentation/Diagrams/catalogue-modele-donnees.md), [interactions](Documentation/Diagrams/catalogue-interactions.md), [plan de l'oral](Documentation/Presentation/catalogue-plan-oral.md)
-- Service commun : [fiche de conception](Documentation/catalogue/Microservice-commun-fiche-conception.docx)
-- API REST et interactions de chaque service : [endpoints](Documentation/Diagrams/endpoints), [interactions](Documentation/Diagrams/interactions)
-- Équipe :
-  - [E1 : sujet et analyse fonctionnelle](Documentation/equipe/E1-sujet-et-analyse-fonctionnelle.docx)
-  - [E2 : découpage en microservices](Documentation/equipe/E2-decoupage-en-microservices.docx)
-  - [E3 et E4 : données, communication et architecture](Documentation/equipe/E3-E4-donnees-communication-architecture.docx) ([version Markdown avec schéma Mermaid](Documentation/E3-E4-donnees-communication-architecture.md))
 
 ## Suivi des tâches
 
